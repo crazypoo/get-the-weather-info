@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C10935D16BA13720049436E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C10935C16BA13720049436E /* UIKit.framework */; };
+		1C10935F16BA13720049436E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C10935E16BA13720049436E /* Foundation.framework */; };
+		1C10936116BA13720049436E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C10936016BA13720049436E /* CoreGraphics.framework */; };
+		1C10936716BA13720049436E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C10936516BA13720049436E /* InfoPlist.strings */; };
+		1C10936916BA13720049436E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C10936816BA13720049436E /* main.m */; };
+		1C10936D16BA13720049436E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C10936C16BA13720049436E /* AppDelegate.m */; };
+		1C10936F16BA13720049436E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10936E16BA13720049436E /* Default.png */; };
+		1C10937116BA13720049436E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10937016BA13720049436E /* Default@2x.png */; };
+		1C10937316BA13720049436E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10937216BA13720049436E /* Default-568h@2x.png */; };
+		1C10937616BA13730049436E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C10937516BA13730049436E /* ViewController.m */; };
+		1C10939316BA13BE0049436E /* 中雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938016BA13BE0049436E /* 中雨.png */; };
+		1C10939416BA13BE0049436E /* 中雨转晴.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938116BA13BE0049436E /* 中雨转晴.png */; };
+		1C10939516BA13BE0049436E /* 中雪.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938216BA13BE0049436E /* 中雪.png */; };
+		1C10939616BA13BE0049436E /* 冰.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938316BA13BE0049436E /* 冰.png */; };
+		1C10939716BA13BE0049436E /* 多云.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938416BA13BE0049436E /* 多云.png */; };
+		1C10939816BA13BE0049436E /* 大雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938516BA13BE0049436E /* 大雨.png */; };
+		1C10939916BA13BE0049436E /* 大雨转晴.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938616BA13BE0049436E /* 大雨转晴.png */; };
+		1C10939A16BA13BE0049436E /* 大雪.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938716BA13BE0049436E /* 大雪.png */; };
+		1C10939B16BA13BE0049436E /* 天气预报.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938816BA13BE0049436E /* 天气预报.png */; };
+		1C10939C16BA13BE0049436E /* 天气预报@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938916BA13BE0049436E /* 天气预报@2x.gif */; };
+		1C10939D16BA13BE0049436E /* 小雪.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938A16BA13BE0049436E /* 小雪.png */; };
+		1C10939E16BA13BE0049436E /* 晴.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938B16BA13BE0049436E /* 晴.png */; };
+		1C10939F16BA13BE0049436E /* 阴.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938C16BA13BE0049436E /* 阴.png */; };
+		1C1093A016BA13BE0049436E /* 阴转晴.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938D16BA13BE0049436E /* 阴转晴.png */; };
+		1C1093A116BA13BE0049436E /* 雨夹雪.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938E16BA13BE0049436E /* 雨夹雪.png */; };
+		1C1093A216BA13BE0049436E /* 雷阵雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10938F16BA13BE0049436E /* 雷阵雨.png */; };
+		1C1093A316BA13BE0049436E /* 雷雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10939016BA13BE0049436E /* 雷雨.png */; };
+		1C1093A416BA13BE0049436E /* 雾.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10939116BA13BE0049436E /* 雾.png */; };
+		1C1093A516BA13BE0049436E /* 风.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C10939216BA13BE0049436E /* 风.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C10935916BA13720049436E /* Teset天气预报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teset天气预报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C10935C16BA13720049436E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C10935E16BA13720049436E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C10936016BA13720049436E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C10936416BA13720049436E /* Teset天气预报-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Teset天气预报-Info.plist"; sourceTree = "<group>"; };
+		1C10936616BA13720049436E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C10936816BA13720049436E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C10936A16BA13720049436E /* Teset天气预报-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teset天气预报-Prefix.pch"; sourceTree = "<group>"; };
+		1C10936B16BA13720049436E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C10936C16BA13720049436E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C10936E16BA13720049436E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C10937016BA13720049436E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1C10937216BA13720049436E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C10937416BA13730049436E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C10937516BA13730049436E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C10938016BA13BE0049436E /* 中雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中雨.png"; sourceTree = "<group>"; };
+		1C10938116BA13BE0049436E /* 中雨转晴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中雨转晴.png"; sourceTree = "<group>"; };
+		1C10938216BA13BE0049436E /* 中雪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中雪.png"; sourceTree = "<group>"; };
+		1C10938316BA13BE0049436E /* 冰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冰.png"; sourceTree = "<group>"; };
+		1C10938416BA13BE0049436E /* 多云.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "多云.png"; sourceTree = "<group>"; };
+		1C10938516BA13BE0049436E /* 大雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大雨.png"; sourceTree = "<group>"; };
+		1C10938616BA13BE0049436E /* 大雨转晴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大雨转晴.png"; sourceTree = "<group>"; };
+		1C10938716BA13BE0049436E /* 大雪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大雪.png"; sourceTree = "<group>"; };
+		1C10938816BA13BE0049436E /* 天气预报.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天气预报.png"; sourceTree = "<group>"; };
+		1C10938916BA13BE0049436E /* 天气预报@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "天气预报@2x.gif"; sourceTree = "<group>"; };
+		1C10938A16BA13BE0049436E /* 小雪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小雪.png"; sourceTree = "<group>"; };
+		1C10938B16BA13BE0049436E /* 晴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "晴.png"; sourceTree = "<group>"; };
+		1C10938C16BA13BE0049436E /* 阴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阴.png"; sourceTree = "<group>"; };
+		1C10938D16BA13BE0049436E /* 阴转晴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阴转晴.png"; sourceTree = "<group>"; };
+		1C10938E16BA13BE0049436E /* 雨夹雪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雨夹雪.png"; sourceTree = "<group>"; };
+		1C10938F16BA13BE0049436E /* 雷阵雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷阵雨.png"; sourceTree = "<group>"; };
+		1C10939016BA13BE0049436E /* 雷雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷雨.png"; sourceTree = "<group>"; };
+		1C10939116BA13BE0049436E /* 雾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雾.png"; sourceTree = "<group>"; };
+		1C10939216BA13BE0049436E /* 风.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C10935616BA13720049436E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10935D16BA13720049436E /* UIKit.framework in Frameworks */,
+				1C10935F16BA13720049436E /* Foundation.framework in Frameworks */,
+				1C10936116BA13720049436E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C10935016BA13720049436E = {
+			isa = PBXGroup;
+			children = (
+				1C10937F16BA13BE0049436E /* weather */,
+				1C10936216BA13720049436E /* Teset天气预报 */,
+				1C10935B16BA13720049436E /* Frameworks */,
+				1C10935A16BA13720049436E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C10935A16BA13720049436E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C10935916BA13720049436E /* Teset天气预报.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C10935B16BA13720049436E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C10935C16BA13720049436E /* UIKit.framework */,
+				1C10935E16BA13720049436E /* Foundation.framework */,
+				1C10936016BA13720049436E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C10936216BA13720049436E /* Teset天气预报 */ = {
+			isa = PBXGroup;
+			children = (
+				1C10936B16BA13720049436E /* AppDelegate.h */,
+				1C10936C16BA13720049436E /* AppDelegate.m */,
+				1C10937416BA13730049436E /* ViewController.h */,
+				1C10937516BA13730049436E /* ViewController.m */,
+				1C10936316BA13720049436E /* Supporting Files */,
+			);
+			path = "Teset天气预报";
+			sourceTree = "<group>";
+		};
+		1C10936316BA13720049436E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C10936416BA13720049436E /* Teset天气预报-Info.plist */,
+				1C10936516BA13720049436E /* InfoPlist.strings */,
+				1C10936816BA13720049436E /* main.m */,
+				1C10936A16BA13720049436E /* Teset天气预报-Prefix.pch */,
+				1C10936E16BA13720049436E /* Default.png */,
+				1C10937016BA13720049436E /* Default@2x.png */,
+				1C10937216BA13720049436E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C10937F16BA13BE0049436E /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				1C10938016BA13BE0049436E /* 中雨.png */,
+				1C10938116BA13BE0049436E /* 中雨转晴.png */,
+				1C10938216BA13BE0049436E /* 中雪.png */,
+				1C10938316BA13BE0049436E /* 冰.png */,
+				1C10938416BA13BE0049436E /* 多云.png */,
+				1C10938516BA13BE0049436E /* 大雨.png */,
+				1C10938616BA13BE0049436E /* 大雨转晴.png */,
+				1C10938716BA13BE0049436E /* 大雪.png */,
+				1C10938816BA13BE0049436E /* 天气预报.png */,
+				1C10938916BA13BE0049436E /* 天气预报@2x.gif */,
+				1C10938A16BA13BE0049436E /* 小雪.png */,
+				1C10938B16BA13BE0049436E /* 晴.png */,
+				1C10938C16BA13BE0049436E /* 阴.png */,
+				1C10938D16BA13BE0049436E /* 阴转晴.png */,
+				1C10938E16BA13BE0049436E /* 雨夹雪.png */,
+				1C10938F16BA13BE0049436E /* 雷阵雨.png */,
+				1C10939016BA13BE0049436E /* 雷雨.png */,
+				1C10939116BA13BE0049436E /* 雾.png */,
+				1C10939216BA13BE0049436E /* 风.png */,
+			);
+			name = weather;
+			path = "Teset天气预报/weather";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C10935816BA13720049436E /* Teset天气预报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C10937C16BA13730049436E /* Build configuration list for PBXNativeTarget "Teset天气预报" */;
+			buildPhases = (
+				1C10935516BA13720049436E /* Sources */,
+				1C10935616BA13720049436E /* Frameworks */,
+				1C10935716BA13720049436E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teset天气预报";
+			productName = "Teset天气预报";
+			productReference = 1C10935916BA13720049436E /* Teset天气预报.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C10935116BA13720049436E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ji Lucky";
+			};
+			buildConfigurationList = 1C10935416BA13720049436E /* Build configuration list for PBXProject "Teset天气预报" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C10935016BA13720049436E;
+			productRefGroup = 1C10935A16BA13720049436E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C10935816BA13720049436E /* Teset天气预报 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C10935716BA13720049436E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10936716BA13720049436E /* InfoPlist.strings in Resources */,
+				1C10936F16BA13720049436E /* Default.png in Resources */,
+				1C10937116BA13720049436E /* Default@2x.png in Resources */,
+				1C10937316BA13720049436E /* Default-568h@2x.png in Resources */,
+				1C10939316BA13BE0049436E /* 中雨.png in Resources */,
+				1C10939416BA13BE0049436E /* 中雨转晴.png in Resources */,
+				1C10939516BA13BE0049436E /* 中雪.png in Resources */,
+				1C10939616BA13BE0049436E /* 冰.png in Resources */,
+				1C10939716BA13BE0049436E /* 多云.png in Resources */,
+				1C10939816BA13BE0049436E /* 大雨.png in Resources */,
+				1C10939916BA13BE0049436E /* 大雨转晴.png in Resources */,
+				1C10939A16BA13BE0049436E /* 大雪.png in Resources */,
+				1C10939B16BA13BE0049436E /* 天气预报.png in Resources */,
+				1C10939C16BA13BE0049436E /* 天气预报@2x.gif in Resources */,
+				1C10939D16BA13BE0049436E /* 小雪.png in Resources */,
+				1C10939E16BA13BE0049436E /* 晴.png in Resources */,
+				1C10939F16BA13BE0049436E /* 阴.png in Resources */,
+				1C1093A016BA13BE0049436E /* 阴转晴.png in Resources */,
+				1C1093A116BA13BE0049436E /* 雨夹雪.png in Resources */,
+				1C1093A216BA13BE0049436E /* 雷阵雨.png in Resources */,
+				1C1093A316BA13BE0049436E /* 雷雨.png in Resources */,
+				1C1093A416BA13BE0049436E /* 雾.png in Resources */,
+				1C1093A516BA13BE0049436E /* 风.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C10935516BA13720049436E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10936916BA13720049436E /* main.m in Sources */,
+				1C10936D16BA13720049436E /* AppDelegate.m in Sources */,
+				1C10937616BA13730049436E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C10936516BA13720049436E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C10936616BA13720049436E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C10937A16BA13730049436E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1C10937B16BA13730049436E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C10937D16BA13730049436E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teset天气预报/Teset天气预报-Prefix.pch";
+				INFOPLIST_FILE = "Teset天气预报/Teset天气预报-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C10937E16BA13730049436E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teset天气预报/Teset天气预报-Prefix.pch";
+				INFOPLIST_FILE = "Teset天气预报/Teset天气预报-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C10935416BA13720049436E /* Build configuration list for PBXProject "Teset天气预报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C10937A16BA13730049436E /* Debug */,
+				1C10937B16BA13730049436E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C10937C16BA13730049436E /* Build configuration list for PBXNativeTarget "Teset天气预报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C10937D16BA13730049436E /* Debug */,
+				1C10937E16BA13730049436E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C10935116BA13720049436E /* Project object */;
+}
